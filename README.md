@@ -1,4 +1,4 @@
-# Concept drift a distribution shift experiments
+# MFWDD (Model-based Feature Weight Drift Detection)
 
 ## Drift detector
 
@@ -88,21 +88,3 @@ detector.get_class_drift()
 
 ## Showcases
 
-### Showcase_QUIC_analysis
-
-* Analysis of CESNET_QUIC22 dataset
-* Showcases how detector would be used for analysis of data from two time periods.
-
-### Showcase_TLS_long_term
-
-* Showcase of all the detector submodules
-* Simulated model deployment and long term monitoring
-
-## Experiments
-
-### ALF_simulation_TLS_missclassified_analysis
-
-* Schowcases how to simulate model deployment and drift detection guided model retraining
-* The model behaviour and the differences between correctly classified and misclasified data samples get analysed
-* Misclassifed samples seem to be mainly outliers, for example behaving differently then the current trend would dictate
-* Other approaches should probably be used for data split into multiple models
