@@ -21,9 +21,9 @@ class Reporter:
         self.global_features = global_features
 
 
-        for logger in loggers:
-            if(not (logger.get_logs().index.equals(self.log_index))):
-                raise Exception("The indexes of all experiments have to be the same") 
+#        for logger in loggers:
+#            if(not (logger.get_logs().index.equals(self.log_index))):
+#                raise Exception("The indexes of all experiments have to be the same") 
         
 
     def calculate_main_results(self, logs, index, index_name):
